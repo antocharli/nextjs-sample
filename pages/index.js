@@ -1,8 +1,21 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import {
+  HomeHero,
+  CompanyCarousel,
+  CompanyBrand,
+  Video,
+  HowItWorks,
+  BestCandidate,
+} from "components";
 
 export default function Home() {
   return (
-    <div> Work in progress </div>
-  )
+    <>
+      <HomeHero />
+      <CompanyCarousel />
+      <CompanyBrand />
+      <Video />
+      <HowItWorks />
+      <BestCandidate />
+    </>
+  );
 }
